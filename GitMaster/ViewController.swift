@@ -9,7 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var gitTextLabel: UILabel!
 
+    @IBAction func changeText(_ sender: UIButton) {
+        
+        self.gitTextLabel.text = self.gitTextLabel.text! + "hello"
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
