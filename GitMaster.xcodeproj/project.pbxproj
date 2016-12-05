@@ -12,6 +12,7 @@
 		D0E4CC291DF5E6AC00B4E639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E4CC271DF5E6AC00B4E639 /* Main.storyboard */; };
 		D0E4CC2B1DF5E6AC00B4E639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E4CC2A1DF5E6AC00B4E639 /* Assets.xcassets */; };
 		D0E4CC2E1DF5E6AC00B4E639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E4CC2C1DF5E6AC00B4E639 /* LaunchScreen.storyboard */; };
+		D0E4CC361DF5FBC700B4E639 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E4CC351DF5FBC700B4E639 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D0E4CC2A1DF5E6AC00B4E639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E4CC2D1DF5E6AC00B4E639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E4CC2F1DF5E6AC00B4E639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E4CC351DF5FBC700B4E639 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D0E4CC231DF5E6AB00B4E639 /* AppDelegate.swift */,
 				D0E4CC251DF5E6AB00B4E639 /* ViewController.swift */,
 				D0E4CC271DF5E6AC00B4E639 /* Main.storyboard */,
+				D0E4CC351DF5FBC700B4E639 /* Model.swift */,
 				D0E4CC2A1DF5E6AC00B4E639 /* Assets.xcassets */,
 				D0E4CC2C1DF5E6AC00B4E639 /* LaunchScreen.storyboard */,
 				D0E4CC2F1DF5E6AC00B4E639 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E4CC361DF5FBC700B4E639 /* Model.swift in Sources */,
 				D0E4CC261DF5E6AB00B4E639 /* ViewController.swift in Sources */,
 				D0E4CC241DF5E6AB00B4E639 /* AppDelegate.swift in Sources */,
 			);
