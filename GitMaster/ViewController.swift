@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         
         
         // New Comment for Git!
+        // The other comment
     }
     
     
